@@ -1,0 +1,17 @@
+What is a directory, and what is its relationship to files?
+
+A directory is where files are stored, 
+and directories can have 'parent-child' relations to each other with the one in the higher hierarchical position being the parent.
+
+
+How are VCS useful?
+
+Version Control Systems are extremely useful in ways of knowing how your system has progressed, what changes were made, 
+and most importantly to have something you can rely on to revert to if a catostrophic mistake breaks the whole system to an 'un-repairable' state.
+
+
+Do you have a favorite artistic medium? Why is it your favorite?
+
+Can't say I really have a favorite per say. 
+If I'm to go with the ones I use though, it would either be pencil art or writing/print.
+Merely because that is my usual 'tools'.
