@@ -1,1 +1,14 @@
 Writing some text to prove I followed the lesson.
+
+What is the relationship between an IP address and the DNS?
+The IP adress is the actual location at which you find the entities that you are looking for.
+DNS give these said entities a name, which is usually easier for a user to remember.
+
+What is a cookie?
+It is a file that is stored on your own computer.
+Created by the websites you visit, to store information.
+
+What are the three essential parts of a URL?
+1)Protocol: which helps to state how the web browser will communicate with a web server.
+2)Domain: the aspects like .com or .net
+3)Path: how do you navigate the directories/files of the system
