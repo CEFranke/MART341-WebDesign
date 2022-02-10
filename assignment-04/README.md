@@ -6,7 +6,7 @@ Assignment-04
 
 A Browser is the application that allows one to view things like websites.
 Browsers themselves are bound to work differently from one another, as how they present information is based on their construction.
-They can uses things like html files to change how sites are viewed.
+They interpret files they receive, offer a user interface, render the information onto the screen.
 The most common browsers that I use is Google Chrome and Microsoft Edge, but I used to use FireFox all the time.
 
 
