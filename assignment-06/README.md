@@ -5,6 +5,6 @@ Structural markup is one that helps you know the structure of the page layout. I
 Semantic markup indicates that you're changing something about the content. Like how using a < em > < /em > will change a small portion of the text, giving it more context and 'meaning'.
 
 
-![Screenshot](./images/indexscreen.png)
+![Screenshot](./images/indexscreen.PNG)
 
-![Screenshot](./images/aboutscreen.png)
+![Screenshot](./images/aboutscreen.PNG)
