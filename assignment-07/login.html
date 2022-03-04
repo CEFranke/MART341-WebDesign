@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <!-- at least one text input, which means using the type="text" attribute or <textarea> -->
+  <!-- at least one selection input, so type="radio", type="checkbox", or <select> -->
+  <!-- at least one button type, so type="file", type="submit", type="image", or <button> -->
+
+  <head>
+    <title>
+      Egg Sale Login
+    </title>
+
+    <!-- Define the character set being used -->
+    <meta charset:"UTF-8">
+    <!-- Give the page a description -->
+    <meta name="description" content="Please login with in order to have a better shopping experience.">
+    <!-- Give author information about the page -->
+    <meta name="author" content="Caitlyn Franke">
+
+    <!-- Any other elements to be added, like viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+      body {background-color: #72c4da}
+      h1 {color: #501126}
+      h2 {color: #61283B}
+    </style>
+
+  </head>
+
+  <body>
+
+    <h1>
+      Welcome Back!
+    </h1>
+
+    <hr />
+
+    <!-- username and password fields -->
+    <form action="index.html" method="post" id="sign-in" class="basic-forms">
+      <fieldset>
+            <legend>Login Fields</legend>
+            Username:
+            <input type="text" name="name" id="test-text" maxlength="15" placeholder="Enter Username" required autofocus/>
+            <br />
+            Password:
+            <input type="password" name="password" id="test-password" placeholder="Enter Password" required />
+         </fieldset>
+
+         <img src="images/BlueEggs.jpg" width="300" height="200" alt="Picture of three blue scaled eggs on rocks."/>
+
+      <br />
+      <input type="submit" value="Eggs Await!" />
+    </form>
+
+  </body>
+
+</html>

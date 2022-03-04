@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <!-- at least one text input, which means using the type="text" attribute or <textarea> -->
+  <!-- at least one selection input, so type="radio", type="checkbox", or <select> -->
+  <!-- at least one button type, so type="file", type="submit", type="image", or <button> -->
+
+  <head>
+    <title>
+      Egg Emporium
+    </title>
+
+    <!-- Define the character set being used -->
+    <meta charset:"UTF-8">
+    <!-- Give the page a description -->
+    <meta name="description" content="Place trying to sell various dragon eggs.">
+    <!-- Give author information about the page -->
+    <meta name="author" content="Caitlyn Franke">
+
+    <!-- Any other elements to be added, like viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+      body {background-color: #72c4da}
+      h1 {color: #501126}
+      h2 {color: #61283B}
+
+      table, th, td {
+        border: 1px solid black;
+        padding: 5px;
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+    <h1>
+      The Egg Emporium Is At Your Survice!
+    </h1>
+
+    <img src="images/EGGS.jpg" width="300" height="200" alt="Picture of three scaled eggs of various colors."/>
+
+    <h2>
+      <a href="login.html"> Login </a>
+    </h2>
+
+    <hr />
+
+    <h3>
+      Eggs For Sale
+    </h3>
+
+    <table>
+      <tr>
+        <th></th>
+        <th scope="col">Color</th>
+        <th scope="col">Type</th>
+        <th scope="col">Breed</th>
+      </tr>
+      <tr>
+        <th scope="row">Egg1</th>
+        <td>Red</td>
+        <td>Fire</td>
+        <td>Dragon</td>
+      </tr>
+      <tr>
+        <th scope="row">Egg2</th>
+        <td>Orange</td>
+        <td>Fire</td>
+        <td>Wyvern</td>
+      </tr>
+      <tr>
+        <th scope="row">Egg3</th>
+        <td>Teal</td>
+        <td>Water</td>
+        <td>Long/Lung</td>
+      </tr>
+      <tr>
+        <th scope="row">Egg4</th>
+        <td>Blue</td>
+        <td>Water</td>
+        <td>Sea Serpent</td>
+      </tr>
+      <tr>
+        <th scope="row">Egg5</th>
+        <td>Blue</td>
+        <td>Ice</td>
+        <td>Lindwyrm</td>
+      </tr>
+      <tr>
+        <th scope="row">Egg6</th>
+        <td>White</td>
+        <td>Ice</td>
+        <td>Dragon</td>
+      </tr>
+      <tr>
+        <th scope="row">Egg7</th>
+        <td>Green</td>
+        <td>Earth</td>
+        <td>Drake</td>
+      </tr>
+      <tr>
+        <th scope="row">Egg8</th>
+        <td>Brown</td>
+        <td>Earth</td>
+        <td>Wyrm</td>
+      </tr>
+      <tr>
+        <th scope="row">Egg9</th>
+        <td>Grey</td>
+        <td>Air</td>
+        <td>Amphiptere</td>
+      </tr>
+    </table>
+
+    <p>Purchase Type</p>
+    <input type="radio" name="level" value="oneegg" checked /> Single Egg
+    <br />
+    <input type="radio" name="level" value="eggset" /> Prepared Egg Set
+    <br />
+    <input type="radio" name="level" value="custom" /> Custom Order
+
+    <form action="index.html" method="post">
+      <button>
+        <img src="images/cart.png" width="50" height="50" />
+        Proceed to Egg Choice
+      </button>
+    </form>
+
+
+
+  </body>
+
+</html>
