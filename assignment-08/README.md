@@ -12,7 +12,7 @@ Advantages include not having to store the data for whatever material you need, 
 
 Optional: What challenges did you face this week with this assignment? How did you overcome them?
 
-For a while, my style code wasn't working. Specifically the div element styles did not want to apply themselves to any of the div elements. This was somehow fixed when I played the div code about the code styling the headers with color. So it works now, though I know nothing of why it broke and why it was fixed.
+For a while, my style code wasn't working. Specifically the div element styles did not want to apply themselves to any of the div elements. This was somehow fixed when I placed the div code above the code styling the headers with color. So it works now, though I know nothing of why it broke and why it was fixed.
 
 --------------------
 
