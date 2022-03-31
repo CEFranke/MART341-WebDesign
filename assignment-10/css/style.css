@@ -1,0 +1,96 @@
+
+
+  nav {
+    background-color: #C4A484;
+    color: #8A2D1C;
+    padding: 1%;
+    text-align: right;
+    border: 5px #371D10 solid;
+    font-family: Times;
+  }
+
+  a {
+      color: #8A2D1C;
+      font-size: 25px;
+  }
+
+  body {
+    background-color: #013220;
+    text-align: center;
+    font-family: Garamond;
+  }
+
+  img {
+    border-radius: 5%;
+  }
+
+  fieldset {
+    color: #8A2D1C;
+    font-size: 25px;
+    font-family: Times;
+  }
+
+  div {
+    background-color: #D3D3D3;
+    color: #352313;
+    width: 700px;
+    margin: auto;
+    padding: 30px;
+    border: 5px solid #371D10;
+    display: inline-block;
+  }
+
+  .emporium {
+    background-color: #ECECEC;
+  }
+
+  #title {
+    font-size: 30px;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+    background-color: white;
+  }
+
+  h1, h2 {
+    color: #8A2D1C;
+    text-align: center;
+  }
+
+.palette {
+  background-color: white;
+}
+
+.dot {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 2px solid black;
+}
+
+.dot.one {
+  background-color: #013220;
+}
+
+.dot.two {
+  background-color: #C4A484;
+}
+
+.dot.three {
+  background-color: #8A2D1C;
+}
+
+.dot.four {
+  background-color: #371D10;
+}
+
+.dot.five {
+  background-color: #ECECEC;
+}
+
+.dot.six {
+  background-color: #D3D3D3;
+}
