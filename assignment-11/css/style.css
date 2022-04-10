@@ -1,0 +1,93 @@
+
+
+  nav {
+    background-image: url('../images/wood.jpg');
+    background-repeat: repeat;
+    background-color: #C4A484;
+    color: #8A2D1C;
+    padding: 1%;
+    text-align: right;
+    border: 5px #371D10 solid;
+    font-family: EBGaramond;
+  }
+
+  a {
+      color: #371D10;
+      font-size: 25px;
+  }
+  a:hover {
+      background-color: lightgrey;
+      font-size: 25px;
+  }
+
+  body {
+    background-image: url('../images/pine.jpg');
+    background-repeat: repeat;
+    background-color: #013220;
+    text-align: center;
+    font-family: EBGaramond;
+  }
+
+  img {
+    border-radius: 5%;
+  }
+
+  .imgborder {
+    border: 4px solid black;
+  }
+
+  fieldset {
+    color: #8A2D1C;
+    font-size: 25px;
+    font-family: EBGaramond;
+  }
+
+  div {
+    background-image: url('../images/stone.jpg');
+    background-repeat: repeat;
+    background-color: #D3D3D3;
+    color: #352313;
+    width: 700px;
+    margin: auto;
+    padding: 30px;
+    border: 5px solid #371D10;
+    display: inline-block;
+  }
+
+  .emporium {
+    background-color: #ECECEC;
+  }
+
+  .title {
+    background-color: white;
+  }
+
+  p {
+    font-size: 25px;
+    color: #371D10;
+  }
+  input[type=radio]:checked + label{
+   color: red;
+  }
+
+  table, th, td {
+    font-size: 20px;
+    color: #371D10;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: white;
+  }
+
+  h1, h2 {
+    color: #8A2D1C;
+    text-align: center;
+  }
+
+  #title {
+    font-family: BeauRivage;
+    font-size: 25px;
+  }
+  #title:hover {
+    letter-spacing: 4px;
+    color: black;
+  }

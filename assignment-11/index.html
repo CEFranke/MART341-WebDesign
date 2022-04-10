@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <!--  Find at least one typeface you would like to use for your assignment. Download the .ttf file(s) and then save it within your fonts subdirectory. -->
+  <!-- In your fonts.css stylesheet, you must use the @font-face selector at least once, and include the font-family, src, and font-weight properties.  -->
+  <!-- Within your style.css stylesheet, you must use at least two pseudo selectors. This could be :hover, :active, :visited, :firstline, whatever you want!  -->
+
+
+  <head>
+    <!-- Define the character set being used -->
+    <meta charset:"UTF-8">
+    <!-- Give the page a description -->
+    <meta name="description" content="A website to help learning colors stuff and css">
+    <!-- Give author information about the page -->
+    <meta name="author" content="Caitlyn Franke">
+    <!-- Any other elements to be added, like viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+      Egg Emporium
+    </title>
+
+    <link rel="stylesheet" type="text/css" href="./css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+
+  </head>
+
+  <body>
+
+    <nav>
+      <a href="index.html">
+        <image src="./images/homeegg.png" alt="A egg icon" width="60" length="60" style="float: left;">
+      </a>
+
+      <br/>
+
+      <ul style="display: inline;">
+        <li style="display: inline;">
+          <a href="about.html">About</a>
+        </li>
+        &vert;
+        <li style="display: inline;">
+          <a href="login.html" class"login-link"> Login </a>
+        </li>
+      </ul>
+
+    </nav>
+
+    <br/>
+
+    <div class="emporium" id="title">
+      <h1>
+        Return  Of  The  Egg  Emporium!
+      </h1>
+    </div>
+
+    <br/>
+    <br/>
+
+    <img src="images/EGGS.jpg" class="imgborder" width="300" height="200" alt="Picture of three scaled eggs of various colors." />
+
+    <br/>
+    <br/>
+
+    <div>
+     <h1>
+       Eggs For Sale
+     </h1>
+    </div>
+
+    <div>
+      <table align="center">
+        <tr>
+          <th></th>
+          <th scope="col">Color</th>
+          <th scope="col">Type</th>
+          <th scope="col">Breed</th>
+        </tr>
+        <tr>
+          <th scope="row">Egg1</th>
+          <td>Red</td>
+          <td>Fire</td>
+          <td>Dragon</td>
+        </tr>
+        <tr>
+          <th scope="row">Egg2</th>
+          <td>Orange</td>
+          <td>Fire</td>
+          <td>Wyvern</td>
+        </tr>
+        <tr>
+          <th scope="row">Egg3</th>
+          <td>Teal</td>
+          <td>Water</td>
+          <td>Long/Lung</td>
+        </tr>
+        <tr>
+          <th scope="row">Egg4</th>
+          <td>Blue</td>
+          <td>Water</td>
+          <td>Sea Serpent</td>
+        </tr>
+        <tr>
+          <th scope="row">Egg5</th>
+          <td>Blue</td>
+          <td>Ice</td>
+          <td>Lindwyrm</td>
+        </tr>
+        <tr>
+          <th scope="row">Egg6</th>
+          <td>White</td>
+          <td>Ice</td>
+          <td>Dragon</td>
+        </tr>
+        <tr>
+          <th scope="row">Egg7</th>
+          <td>Green</td>
+          <td>Earth</td>
+          <td>Drake</td>
+        </tr>
+        <tr>
+          <th scope="row">Egg8</th>
+          <td>Brown</td>
+          <td>Earth</td>
+          <td>Wyrm</td>
+        </tr>
+        <tr>
+          <th scope="row">Egg9</th>
+          <td>Grey</td>
+          <td>Air</td>
+          <td>Amphiptere</td>
+        </tr>
+      </table>
+
+      <br />
+
+      <p>Purchase Type
+        <br/>
+
+        <input type="radio" name="level" value="oneegg" checked /> <label>Single Egg</label>
+        <br />
+        <input type="radio" name="level" value="eggset" /><label>Prepared Egg Set</label>
+        <br />
+        <input type="radio" name="level" value="custom" /><label>Custom Order</label>
+
+        <form action="index.html" method="post">
+          <button>
+            <img src="images/cart.png" width="50" height="50" />
+            Proceed to Egg Choice
+          </button>
+        </form>
+      </p>
+    </div>
+
+
+    <br />
+    <br />
+
+    <nav>
+        <a href="#">Back To Top</a>
+    </nav>
+
+  </body>
+</html>
