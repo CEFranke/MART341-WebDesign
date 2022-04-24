@@ -1,0 +1,20 @@
+/* this is the fonts.css file */
+
+@font-face {
+  font-family: "EBGaramond";
+  src: url('../fonts/EBGaramond-Regular.ttf') format('truetype');
+  font-style: normal;
+}
+@font-face {
+  font-family: "EBGaramond";
+  src: url('../fonts/EBGaramond-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+
+
+@font-face {
+  font-family: "BeauRivage";
+  src: url('../fonts/BeauRivage-Regular.ttf') format('truetype');
+  font-style: normal;
+}
