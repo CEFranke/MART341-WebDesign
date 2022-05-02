@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <!-- at least one text input, which means using the type="text" attribute or <textarea> -->
+  <!-- at least one selection input, so type="radio", type="checkbox", or <select> -->
+  <!-- at least one button type, so type="file", type="submit", type="image", or <button> -->
+
+  <head>
+
+    <!-- Define the character set being used -->
+    <meta charset:"UTF-8">
+    <!-- Give the page a description -->
+    <meta name="description" content="Log in page for a website to help learn more about styling menus">
+    <!-- Give author information about the page -->
+    <meta name="author" content="Caitlyn Franke">
+
+    <!-- Any other elements to be added, like viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+      Egg Login
+    </title>
+
+    <link rel="stylesheet" type="text/css" href="./css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <!-- Load an icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <!-- title -->
+      <title>Egg List</title>
+
+  </head>
+
+  <body>
+
+       <!--Navigation bar-->
+       <div id="nav-placeholder">
+       </div>
+       <script src="nav.js"></script>
+       <!--end of Navigation bar-->
+
+    <br />
+    <br />
+
+    <div class="emporium bodydiv">
+      <h1>
+        Welcome Back!
+      </h1>
+    </div>
+
+    <br />
+    <br />
+
+    <div class="bodydiv">
+      <h2>
+        Sorry for any problems caused by the current lack of a sign in page.
+      </h2>
+
+      <!-- username and password fields -->
+      <form action="index2.html" method="post" id="sign-in" class="basic-forms">
+        <fieldset>
+            <legend>Login Fields</legend>
+            Username:
+            <input type="text" name="name" id="test-text" maxlength="15" placeholder="Enter Username" required autofocus/>
+            <br />
+            Password:
+            <input type="password" name="password" id="test-password" placeholder="Enter Password" required />
+         </fieldset>
+
+         <br/>
+         <img src="images/BlueEggs.jpg" class="imgborder" width="300" height="200" alt="Picture of three blue scaled eggs on rocks."/>
+         <br />
+         <br />
+         <input type="submit" value="Eggs Await!" />
+       </form>
+     </div>
+
+  </body>
+
+</html>

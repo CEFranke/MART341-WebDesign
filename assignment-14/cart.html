@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <!-- Define the character set being used -->
+      <meta charset:"UTF-8">
+      <!-- Give the page a description -->
+      <meta name="description" content="A website to help learn more about styling menus">
+      <!-- Give author information about the page -->
+      <meta name="author" content="Caitlyn Franke">
+      <!-- Any other elements to be added, like viewport -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+      <link rel="stylesheet" type="text/css" href="./css/fonts.css" />
+      <link rel="stylesheet" type="text/css" href="./css/style.css" />
+	  <!-- Load an icon library -->
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <!-- title -->
+	  <title>Shopping Cart</title>
+	  <script>
+           var loggedin = true;
+	  </script>
+
+    </head>
+
+    <body>
+
+        <!--Navigation bar-->
+        <div id="nav-placeholder">
+            <script src="nav.js"></script>
+        </div>
+        <!--end of Navigation bar-->
+
+        <br/>
+        <br/>
+
+		<div class="content__center bodydiv">
+		   <h2>Strix Dragon Egg Emporium</h2>
+
+
+
+           <!-- Main body -->
+		    <p>Shopping Cart</p>
+			<br>
+
+ 	       <div class="div-scroll" >
+	          <table  class="center" border='1'>
+	             <thead align=\"left\">
+	               <tr>
+	                 <th>Item #</th>
+	                 <th>Image</th>
+	                 <th>Description</th>
+	                 <th>Purchase Cost</th>
+	                 <th>Quantity to Purchase</th>
+	                 <th>Purchase Cost</th>
+	                 <th>Delete from Cart</th>
+	               </tr>
+    	         </thead>
+                     <form action="#" method="post" name="cart" id="cart">
+						<tr>
+						   <td class="content__center"></td>
+						   <td class="content__center"></td>
+						   <td class="content__center"></td>
+						   <td class="content__center"></td>
+						   <td class="content__center"></td>
+						   <td class="content__center"></td>
+						   <td class="content__center"></td>
+						</tr>
+
+				     </form>
+	          </table>
+			  <br>
+              <form action="order.html" method="post" name="order" id="order">
+                   <p>Total Cost = $00.00</p>
+				   <button type="button" class="button">Clear Cart</button>
+				   <button type="submit" name="Order" value="Order" class="button">Order</button>
+              </form>
+	       </div>
+
+         </div>
+
+
+	</body>
+</html>

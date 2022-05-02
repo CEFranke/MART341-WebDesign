@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <!-- Define the character set being used -->
+      <meta charset:"UTF-8">
+      <!-- Give the page a description -->
+      <meta name="description" content="A website to help learn more about styling menus">
+      <!-- Give author information about the page -->
+      <meta name="author" content="Caitlyn Franke">
+      <!-- Any other elements to be added, like viewport -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+      <link rel="stylesheet" type="text/css" href="./css/fonts.css" />
+      <link rel="stylesheet" type="text/css" href="./css/style.css" />
+	  <!-- Load an icon library -->
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <!-- title -->
+	  <title>Settings</title>
+
+	  <script>
+           var loggedin = true;
+	  </script>
+    </head>
+
+    <body>
+
+        <!--Navigation bar-->
+        <div id="nav-placeholder">
+            <script src="nav.js"></script>
+        </div>
+        <!--end of Navigation bar-->
+
+        <br/>
+        <br/>
+
+       <div class="content__center bodydiv">
+	    <form action="#" method="post">
+           <h1>User Settings</h1>
+		   <table  class="center">
+		     <tr>
+			    <td>
+	               <table class="tableInsert2">
+    		         <tr>
+			            <td  align="left" >User ID:</td>
+			            <td  align="left" >
+			        	    <input name="id" type="text" placeholder="User ID"  required="required">
+					    </td>
+		             </tr>
+    		         <tr>
+			            <td  align="left" >Password:</td>
+			            <td  align="left" >
+			        	    <input name="password" placeholder="Password" type="password" required="required">
+					    </td>
+		             </tr>
+				     <tr>
+			            <td  align="left" >First Name:</td>
+			            <td  align="left" >
+			        	    <input name="fname" placeholder="Your First Name" type="text" required="required">
+					    </td>
+		             </tr>
+				     <tr>
+			            <td  align="left" >Last Name:</td>
+			            <td  align="left" >
+			        	    <input name="lname" placeholder="Your Last Name" type="text" required="required">
+					    </td>
+		             </tr>
+				     <tr>
+			            <td  align="left" >Email:</td>
+			            <td  align="left" >
+			        	    <input name="email" placeholder="Email Address" type="text" required="required">
+					    </td>
+		             </tr>
+		             <tr>
+	                    <td colspan="2">&nbsp;
+	                    </td>
+		             </tr>
+		             <tr>
+	                    <td colspan="2">
+		                     <input type="submit" name="submit" value="Update" class="button">
+	                    </td>
+		             </tr>
+   	               </table>
+	            </td>
+	        </table>
+	    </form>
+       </div>
+
+
+	</body>
+</html>

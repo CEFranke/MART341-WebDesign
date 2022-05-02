@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <!--  Using the <header> element and <divs>, add in navigation links to any relevant pages as the first thing in the <body> element on your index.html file. -->
+  <!-- In your style.css file, style your header bar. You should use the position, padding, margin, and border properties at least once each.   -->
+  <!-- Create a drop-down menu. You will need to use pseudo-selectors here, in addition to the z-index and display properties. You must use the z-index and display properties at least once each.  -->
+
+
+  <head>
+    <!-- Define the character set being used -->
+    <meta charset:"UTF-8">
+    <!-- Give the page a description -->
+    <meta name="description" content="A website to help learn more about styling menus">
+    <!-- Give author information about the page -->
+    <meta name="author" content="Caitlyn Franke">
+    <!-- Any other elements to be added, like viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+      Egg Emporium
+    </title>
+
+    <link rel="stylesheet" type="text/css" href="./css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+
+    <!-- Load an icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<script>
+	      var loggedin = true;
+		</script>
+  </head>
+
+  <body>
+
+    <!--Navigation bar-->
+    <div id="nav-placeholder">
+    </div>
+    <script src="nav.js"></script>
+    <!--end of Navigation bar-->
+
+    <br/>
+    <br/>
+
+    <div class="emporium bodydiv" id="title" >
+      <h1>
+        Welcome To Strix Egg  Emporium!
+      </h1>
+    </div>
+
+    <br/>
+    <br/>
+
+    <img src="images/EGGS.jpg" class="imgborder" width="300" height="200" alt="Picture of three scaled eggs of various colors." />
+
+    <br/>
+    <br/>
+
+    <div class="bodydiv">
+     <h1>
+       We've got a variety of draconic eggs ready for sale. Feel free to paruse the site and view all that we have to offer!
+     </h1>
+    </div>
+
+    <br/>
+    <br/>
+
+    <div class="bodydiv">
+     <h1>
+       Eggs For Sale
+     </h1>
+    </div>
+
+    <div class="bodydiv">
+      <table align="center">
+        <tr>
+          <th scope="col">Color</th>
+          <th scope="col">Type</th>
+          <th scope="col">Breed</th>
+        </tr>
+        <tr>
+          <td>Red</td>
+          <td>Fire</td>
+          <td>Dragon</td>
+        </tr>
+        <tr>
+          <td>Orange</td>
+          <td>Fire</td>
+          <td>Wyvern</td>
+        </tr>
+        <tr>
+          <td>Teal</td>
+          <td>Water</td>
+          <td>Long/Lung</td>
+        </tr>
+        <tr>
+          <td>Blue</td>
+          <td>Water</td>
+          <td>Sea Serpent</td>
+        </tr>
+        <tr>
+          <td>Blue</td>
+          <td>Ice</td>
+          <td>Lindwyrm</td>
+        </tr>
+        <tr>
+          <td>White</td>
+          <td>Ice</td>
+          <td>Dragon</td>
+        </tr>
+        <tr>
+          <td>Green</td>
+          <td>Earth</td>
+          <td>Drake</td>
+        </tr>
+        <tr>
+          <td>Brown</td>
+          <td>Earth</td>
+          <td>Wyrm</td>
+        </tr>
+        <tr>
+          <td>Grey</td>
+          <td>Air</td>
+          <td>Amphiptere</td>
+        </tr>
+      </table>
+
+      <br />
+
+      <p>Purchase Type
+        <br/>
+
+        <input type="radio" name="level" value="oneegg" checked /> <label>Custom Egg Order</label>
+        <br />
+        <input type="radio" name="level" value="eggset" /><label>Prepared Starter Set</label>
+
+        <form action="egg_list.html" method="post">
+          <button>
+            <img src="images/cart.png" width="50" height="50" />
+            Proceed to Egg Choice
+          </button>
+        </form>
+      </p>
+    </div>
+
+
+    <br />
+    <br />
+
+  </body>
+</html>
