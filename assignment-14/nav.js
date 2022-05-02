@@ -9,7 +9,7 @@ document.getElementById("nav-placeholder").innerHTML =
 	'<div class="navbar">'+
 
 	   '<div class="content__left">'+
-           '<a class="active" href="Index2.html"><i class="fa fa-caret-home"></i>Home</a>'+
+           '<a class="active" href="index2.html"><i class="fa fa-caret-home"></i>Home</a>'+
 
            '<div class="lessen1">'+
            '</div>'+
@@ -80,7 +80,7 @@ document.getElementById("nav-placeholder").innerHTML =
 	'<div class="navbar">'+
 
     '<div class="content__left">'+
-        '<a class="active sitename" href="Index.html"><i class="fa fa-caret-home"></i>Home</a>'+
+        '<a class="active sitename" href="index.html"><i class="fa fa-caret-home"></i>Home</a>'+
 
         '<div class="lessen1">'+
         '</div>'+
