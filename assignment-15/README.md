@@ -3,3 +3,5 @@ There wasn't anthing specified about what to put here so overall I'm going to pu
 I am making a store site, that is meant to help people find products, learn about said products, and buy things. It sells Dragon Eggs.
 
 Ive learned that Github doesn't like submits used with posts, and will give a "405 - Not Allowed Error" so all of my submits have been changed into buttons with an onclick attribute, which also breaks all "you can't move on without filling in this field" instances I have.
+
+I also don't have any form of database so I had to mock up static html examples of what the site might show. There is a lot of features that this site can't actually use (like the search) because everything is static.
