@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+      <!-- Define the character set being used -->
+      <meta charset:"UTF-8">
+      <!-- Give the page a description -->
+      <meta name="description" content="A website to help learn more about styling menus">
+      <!-- Give author information about the page -->
+      <meta name="author" content="Caitlyn Franke">
+      <!-- Any other elements to be added, like viewport -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+      <link rel="stylesheet" type="text/css" href="./css/fonts.css" />
+      <link rel="stylesheet" type="text/css" href="./css/style.css" />
+	  <!-- Load an icon library -->
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <!-- title -->
+	  <title>Order Form</title>
+	  <script>
+           var loggedin = true;
+	  </script>
+
+    </head>
+
+    <body>
+
+        <!--Navigation bar-->
+        <div id="nav-placeholder">
+            <script src="nav.js"></script>
+        </div>
+        <!--end of Navigation bar-->
+
+        <br/>
+        <br/>
+		<div class="content__center bodydiv">
+
+      <div class="order">
+	   <h2>Strix Dragon Egg Emporium</h2>
+	   <h2>Place Order</h2>
+	    <form action="orders.html" method="post">
+
+		   <table  class="tableInsert" align="left">
+		     <tr>
+			    <td>
+	               <table class="tableInsert2">
+				     <tr>
+			            <td  align="left" >First Name:</td>
+			            <td  align="left" >
+                           <input name="fname" type="text" placeholder="First Name"  required="required" value="Caitlyn" maxlength="25">
+ 					   </td>
+		             </tr>
+				     <tr>
+			            <td  align="left" >Last Name:</td>
+			            <td  align="left" >
+                            <input name="lname" type="text" placeholder="Last Name"  required="required" value="Franke" maxlength="25">
+						</td>
+		             </tr>
+				     <tr>
+			            <td  align="left" >Address:</td>
+			            <td  align="left" >
+			        	   <input name="address" type="text" placeholder="Address"  required="required" maxlength="45">
+					    </td>
+		             </tr>
+				     <tr>
+			            <td  align="left" >City:</td>
+			            <td  align="left" >
+			        	   <input name="city" type="text" placeholder="City"  required="required" maxlength="25">
+					    </td>
+		             </tr>
+				     <tr>
+			            <td  align="left" >State:</td>
+			            <td  align="left" >
+			        	   <input name="state" type="text" placeholder="State"  required="required" maxlength="2">
+					    </td>
+		             </tr>
+				     <tr>
+			            <td  align="left" >Zip Code:</td>
+			            <td  align="left" >
+			        	   <input name="zip" type="text" placeholder="zip"  required="required" maxlength="5" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+					    </td>
+		             </tr>
+				     <tr>
+			            <td  align="left" >Email:</td>
+			            <td  align="left" >
+                           <input name="email" type="text" placeholder="Email Address"  required="required" value="Draco@gmail.com" maxlength="45">
+						</td>
+		             </tr>
+		             <tr>
+	                    <td colspan="2">&nbsp;
+	                    </td>
+		             </tr>
+    		         <tr>
+			            <td  align="left" >Credit Card Num:</td>
+			            <td  align="left" >
+			        	   <input name="ccardnum" type="text" placeholder="Credit Card Number"  required="required" onkeypress='return event.charCode >= 48 && event.charCode <= 57' maxlength="16">
+					    </td>
+		             </tr>
+    		         <tr>
+			            <td  align="left" >Expiration Date:</td>
+			            <td  align="left" >
+			        	   <input name="ccardexp" type="month" placeholder="Credit Card Date"  required="required">
+					    </td>
+		             </tr>
+    		         <tr>
+			            <td  align="left" >Credit Card CCV:</td>
+			            <td  align="left" >
+			        	   <input name="ccardccv" type="text" placeholder="Credit Card CCV"  required="required" maxlength="3" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+					    </td>
+		             </tr>
+		             <tr>
+	                    <td colspan="2">&nbsp;
+	                    </td>
+		             </tr>
+		             <tr>
+	                    <td colspan="2">
+		                     <input type="button" name="submit" value="Create Order" class="button" style="font-size: 1vw;" onclick="window.location.href='orders.html';">
+	                    </td>
+		             </tr>
+   	               </table>
+	            </td>
+	        </table>
+	    </form>
+       </div>
+	   <br>
+       <p>Total Cost = $105.00</p>
+	   <br>
+       </div>
+
+       <div class="content__center bodydiv">
+    	       <div >
+   	          <table  class="center" border='1'>
+   	             <thead align=\"left\">
+   	               <tr>
+   	                 <th>Item #</th>
+   	                 <th>Image</th>
+   	                 <th>Description</th>
+   	                 <th>Purchase Cost</th>
+   	                 <th>Quantity to Purchase</th>
+   	                 <th>Purchase Cost</th>
+   	               </tr>
+       	         </thead>
+                   <tr>
+   				   <td class="content__center">2</td>
+   				   <td class="content__center"><img src=images/OIP2.jpg alt="Picture of an Orange Fire Wyvern egg" style="width:80%; max-width=100%; height=auto;" > </td>
+   				   <td class="content__center">Orange Fire Wyvern	</td>
+   				   <td class="content__center">$45.00</td>
+   				   <td class="content__center">1</td>
+   				   <td class="content__center">$45.00</td>
+   				</tr>
+   				<tr>
+   				   <td class="content__center">5</td>
+   				   <td class="content__center"><img src=images/OIP5.jpg alt="Picture of a Blue Ice Lindwyrm egg" style="width:80%; max-width=100%; height=auto;" > </td>
+   				   <td class="content__center">Blue Ice Lindwyrm</td>
+   				   <td class="content__center">$25.00</td>
+   				   <td class="content__center">2</td>
+   				   <td class="content__center">$50.00</td>
+   				</tr>
+   				<tr>
+   				   <td class="content__center">8</td>
+   				   <td class="content__center"><img src=images/OIP8.jpg alt="Picture of a Brown Earth Wyrm egg" style="width:80%; max-width=100%; height=auto;" > </td>
+   				   <td class="content__center">Brown Earth Wyrm</td>
+   				   <td class="content__center">$10.00</td>
+   				   <td class="content__center">1</td>
+   				   <td class="content__center">$10.00</td>
+   				</tr>
+   			</table>
+   	      </div>
+         </div>
+
+	</body>
+</html>

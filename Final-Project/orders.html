@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+      <!-- Define the character set being used -->
+      <meta charset:"UTF-8">
+      <!-- Give the page a description -->
+      <meta name="description" content="A website to help learn more about styling menus">
+      <!-- Give author information about the page -->
+      <meta name="author" content="Caitlyn Franke">
+      <!-- Any other elements to be added, like viewport -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+      <link rel="stylesheet" type="text/css" href="./css/fonts.css" />
+      <link rel="stylesheet" type="text/css" href="./css/style.css" />
+	  <!-- Load an icon library -->
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <!-- title -->
+	  <title>Orders</title>
+	  <script>
+           var loggedin = true;
+	  </script>
+
+    </head>
+
+    <body>
+
+        <!--Navigation bar-->
+        <div id="nav-placeholder">
+            <script src="nav.js"></script>
+        </div>
+        <!--end of Navigation bar-->
+
+        <br/>
+        <br/>
+		<div class="content__center bodydiv">
+
+		<div class="content__center">
+		   <h2>Strix Dragon Egg Emporium</h2>
+
+           <!-- Main body -->
+		   <p>Orders</p>
+           <p>Click OrderNum to view Invoice.</p>
+
+	       <div class="div-scroll" >
+
+              <table  class="center" border="1" width="90%">
+   			     <thead align=\"left\">
+   				    <tr>
+					   <th>Order #</th>
+					   <th>Order Date</th>
+					   <th>Total Cost</th>
+					   <th>Item #</th>
+					   <th>Image</th>
+					   <th>Description</th>
+					   <th>Cost</th>
+					   <th>Qty</th>
+					</tr>
+				 </thead>
+				 <br>
+				 <form  target="_blank" action="invoice1.html" method="post" id="invoice" name="invoice">
+				 <tr>
+				    <td rowspan="3" class="content__center">
+					   <button type="button" name="orderNum" value="6269de85e8af1" class="btn-link" style="font-size: 1vw;" onclick="window.location.href='invoice1.html';">6269de85e8af1</button>
+					</td>
+					<td rowspan="3" class="content__center">2022-04-27</td>
+					<td rowspan="3" class="content__center">$105.00</td>
+					<td class="content__center">2</td>
+					<td class="content__center"><img src="images/OIP2.jpg" alt="Picture of an Orange Fire Wyvern egg" style="width:80%; max-width=100%; height=auto;" ></td>
+					<td class="content__center">Orange Fire Wyvern</td>
+					<td class="content__center">$45.00</td>
+					<td class="content__center">1</td>
+				 </tr>
+				 <tr>
+				    <td class="content__center">5</td>
+					<td class="content__center"><img src="images/OIP5.jpg" alt="Picture of a Blue Ice Lindwyrm egg" style="width:80%; max-width=100%; height=auto;" ></td>
+					<td class="content__center">Blue Ice Lindwyrm</td>
+					<td class="content__center">$25.00</td>
+					<td class="content__center">2</td>
+				 </tr>
+				 <tr>
+				    <td class="content__center">8</td>
+					<td class="content__center"><img src="images/OIP8.jpg" alt="Picture of a Brown Earth Wyrm egg" style="width:80%; max-width=100%; height=auto;" ></td>
+					<td class="content__center">Brown Earth Wyrm</td>
+					<td class="content__center">$10.00</td>
+					<td class="content__center">1</td>
+				 </tr>
+				 </form>
+				 </table>
+
+				 <table  class="center" border="1" width="90%">
+  			     <thead align=\"left\">
+   				    <tr>
+					   <th>Order #</th>
+					   <th>Order Date</th>
+					   <th>Total Cost</th>
+					   <th>Item #</th>
+					   <th>Image</th>
+					   <th>Description</th>
+					   <th>Cost</th>
+					   <th>Qty</th>
+					</tr>
+				 </thead>
+
+				 <br>
+				 <form  target="_blank" action="invoice2.html" method="post" id="invoice" name="invoice">
+				 <tr>
+ 				    <td rowspan="1" class="content__center">
+					   <button type="button" name="orderNum" value="603efe9ab0c6f" class="btn-link" style="font-size: 1vw;" onclick="window.location.href='invoice2.html';">603efe9ab0c6f</button>
+					</td>
+					<td rowspan="1" class="content__center">2021-03-02</td>
+					<td rowspan="1" class="content__center">$45.00</td>
+					<td class="content__center">2</td>
+					<td class="content__center"><img src="images/OIP2.jpg" alt="Picture of an Orange Fire Wyvern egg" style="width:80%; max-width=100%; height=auto;" ></td>
+					<td class="content__center">Orange Fire Wyvern</td>
+					<td class="content__center">$45.00</td>
+					<td class="content__center">1</td>
+				 </tr>
+				 </form>
+				 </table>
+				 <br>
+
+	       </div>
+         </div>
+
+	</body>
+</html>
